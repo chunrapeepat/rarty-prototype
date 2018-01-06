@@ -24,7 +24,7 @@ const FooterContainer = () => (
         <div className="container">
 	        <div class="row">
 	        	<div class="col-md-6">
-	        		LOGO HERE
+				<img width="100px"src="/static/logo-2.png" />
 	        	</div>
 	        	<div class="col-md-3">
 	        		<b>CATAGORIES</b>

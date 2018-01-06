@@ -108,9 +108,9 @@ export default class extends Component {
             const id = this.state.items[i].id;
             var trystate;
             if(this.state.items[i].try===false){
-                trystate = <TryItem className="col-1"><i class="zmdi zmdi-male-alt" onClick={() => this.setTryState(id)}></i> </TryItem>
+                trystate = <center><TryItem className="col-1"><i class="zmdi zmdi-male-alt" onClick={() => this.setTryState(id)}></i> </TryItem></center>
             }else{
-                trystate = <TryItem className="col-1"> <i class="zmdi zmdi-male" onClick={() => this.setTryState(id)}></i> </TryItem>
+                trystate = <center><TryItem className="col-1"> <i class="zmdi zmdi-male" onClick={() => this.setTryState(id)}></i> </TryItem></center>
             }
 
             items.push(
@@ -118,9 +118,10 @@ export default class extends Component {
                     <div class="col-3"><CheckoutProduct /></div>
                     <div class="col-5">{this.state.items[i].name}</div>
                     <div class="col-2">{this.state.items[i].price}</div>
+                    {trystate}
                     <RemoveItem className="col-1">
-                        <i class="zmdi zmdi-delete" onClick={() => this.getCurrentItems(id)}></i>
-                    </RemoveItem>{trystate}</Item>)  
+                        <center><i class="zmdi zmdi-delete" onClick={() => this.getCurrentItems(id)}></i></center>
+                    </RemoveItem></Item>)  
         }
 
         return (
@@ -136,7 +137,8 @@ export default class extends Component {
                                 <TableHeader className="row">
                                     <div class="col-8">PRODUCT</div>
                                     <div class="col-2">PRICE</div>
-                                    <div class="col-2"></div>
+                                    <div class="col-1">TRY</div>
+                                    <div class="col-1"></div>
                                 </TableHeader>
                                 {items}
                             </ItemContainer>

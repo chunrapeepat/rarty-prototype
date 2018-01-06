@@ -5,7 +5,7 @@ const Container = styled.div`
     width: 100%;
     color: white;
     padding: 15px 0;
-    background: #311B92;
+    position : absolute;
     font-family: 'Montserrat', sans-serif;
 
     & > .container > div {

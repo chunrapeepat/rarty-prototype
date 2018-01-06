@@ -3,13 +3,14 @@ import styled from 'styled-components'
 
 const Container = styled.div`
     width: 100%;
-    height: 400px;
-    background: #ccc;
+    height:600px;
+    background: url(/static/banner2.png) center center;
+    
 `
 
 const Banner = () => (
     <Container>
-        This is a Banner
+        
     </Container>
 )
 
