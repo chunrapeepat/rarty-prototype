@@ -17,6 +17,9 @@ const Container = styled.div`
         margin-right : 50px; 
         margin-top : 15px;
     }
+    & > .container > div:nth-child(2){
+        font-size:20px;
+    }
 `
 
 const Navigator = () => (
@@ -27,9 +30,10 @@ const Navigator = () => (
             </div>
             <div>
                 <i class="zmdi zmdi-search"></i>&nbsp;&nbsp;
-                <i class="zmdi zmdi-account-o"></i>
-
+                <i class="zmdi zmdi-account-o"></i>&nbsp;&nbsp;
+                <i class="zmdi zmdi-shopping-cart"></i>
             </div>
+            
             <div>CONTACT</div>
             <div>HOW TO ORDER</div>            
             <div>ARTICLE</div>            

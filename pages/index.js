@@ -22,20 +22,7 @@ const Index = () => (
         <sharedStyle.Heading desc="you may wish to add some sort of pagination to each page.">
           NEW ARRIVAL
         </sharedStyle.Heading>
-        <div className="row">
-          <div className="col-md-3">
-            <ProductCard />
-          </div>
-          <div className="col-md-3">
-            <ProductCard />
-          </div>
-          <div className="col-md-3">
-            <ProductCard />
-          </div>
-          <div className="col-md-3">
-            <ProductCard />
-          </div>
-        </div>
+        <img src="/static/new-arrival.png" width="100%" />
       </div>
       <FooterContainer/>
   </div>
