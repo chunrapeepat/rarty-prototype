@@ -37,15 +37,13 @@ const TotalButtonContainer = styled.div`
     font-family: 'Montserrat', sans-serif;
 
 `
-const RemoveItem = styled.div`
-    font-size : 24px;
-`
+
 const TryItem = styled.div`
     font-size : 24px;
 `
 const ProceedButton = styled.div`
     background-color : #34254e; 
-    font-size : 16px;
+    font-size : 14px;
     color : white;
     text-align : center;
     padding : 10px 0px 10px 0px;
@@ -53,7 +51,7 @@ const ProceedButton = styled.div`
 `
 const GobackButton = styled.div`
     background-color : #3e3e3e; 
-    font-size : 16px;
+    font-size : 14px;
     color : white;
     text-align : center;
     padding : 10px 0px 10px 0px;
@@ -70,18 +68,30 @@ export default class extends Component {
                     price: 1000.0,
                     try: false,
                     img: "",
-                    duration: "27/02/61 - 30/02/61"
+                    duration: "27/02/61 - 30/02/61",
+                    status : "Order Accpeted"
                 },
                 {
                     id: 2,
-                    name: "",
-                    price: 2500.0,
+                    name: "ชุดเจไดเด็กเล็ก คุณภาพดี",
+                    price: 500.0,
                     try: false,
                     img: "jedi",
-                    duration: "1/12/61 - 2/12/61"
+                    duration: "1/12/61 - 2/12/61",
+                    status : "Delivering"
                 },
+                {
+                    id: 3,
+                    name: "Wonder Women Full plate costume",
+                    price: 2500.0,
+                    try: false,
+                    img: "ww",
+                    duration: "10/1/61 - 12/1/61",
+                    status : "Delivered"
+                },
+
             ],
-            total: 3500
+            total: 1000
         }
 
     }
@@ -117,6 +127,7 @@ export default class extends Component {
                     try: !this.state.items[i].try,
                     duration: this.state.items[i].duration,
                     img: "",
+                    status : this.state.items[i].status
                    
                 });
                 fee = this.state.items[i].price * 0.1;
@@ -138,13 +149,13 @@ export default class extends Component {
 
             items.push(
                 <Item className="row" >
-                    <div class="col-3"><CheckoutProduct /></div>
-                    <div class="col-8">
+                    <div class="col-2"><CheckoutProduct /></div>
+                    <div class="col-7">
                         <ItemName>{this.state.items[i].name}</ItemName>
                         <br /><br />
                         <RentDetail>
                         <div class="custom-control custom-checkbox">
-                            <input type="checkbox" class="custom-control-input" id={this.state.items[i].id} onClick={() => this.setTryState(id)}/>
+                            <input type="checkbox" class="custom-control-input" id={this.state.items[i].id} onClick={() => this.setTryState(id)} checked/>
                             <label class="custom-control-label" for={this.state.items[i].id}>ลองชุด ({this.state.items[i].price*0.1} บาท)</label>
                         </div>
                         <div>
@@ -155,9 +166,11 @@ export default class extends Component {
                         </div>
                         </RentDetail>
                     </div>
-                    <RemoveItem className="col-1">
-                        <center><i class="zmdi zmdi-delete" onClick={() => this.getCurrentItems(id)}></i></center>
-                    </RemoveItem>
+                    <div class="col-3">
+                    <br/><br/>
+                        <div>{this.state.items[i].status}</div>
+                        </div>
+                    
 
                 </Item>)
 
@@ -169,33 +182,21 @@ export default class extends Component {
                 <Navigator />
                 <div class="container">
                     <sharedStyle.Heading>
-                        Checkout
+                        TRACKING
                 </sharedStyle.Heading>
                     <div class="row">
-                        <div class="col-8">
+                        <div class="col-12">
                             <ItemContainer className="container">
                                 <TableHeader className="row">
-                                    <div class="col-10">PRODUCT</div>
-                                    <div class="col-2"></div>
+                                    <div class="col-9">ORDERS</div>
+                                    <div class="col-3">STATUS</div>
                                 </TableHeader>
                                 {items}
                             </ItemContainer>
                         </div>
-                        <div class="col-4">
-                            <hr />
-                            <Total className="container">
-                                Total : {this.state.total}
-                            </Total>
-                            <hr />
-                            <TotalButtonContainer class="row">
-                                <ProceedButton>
-                                    Proceed
-                                </ProceedButton>
-                                <GobackButton>
-                                    Go Back
-                                </GobackButton>
-                            </TotalButtonContainer>
-                        </div>
+                        
+   
+                        
                     </div>
                 </div>
                 <br />
