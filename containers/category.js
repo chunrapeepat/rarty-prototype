@@ -1,16 +1,17 @@
 import {Component} from 'react'
 import styled from "styled-components"
 
-const Container = styled.div`
-    width : 100%;
-`
+
 const MainCategory = styled.div`
-    
+    padding : 10px;
+  
+`
+const SubCategory = styled.div`
+    padding : 10px;
+    border-left: 5px solid #333;
+    display: flex;
 `
 
-const SubCategory = styled.div`
-    padding : 10px
-`
 export default class extends Component{
     constructor(){
         super()
@@ -24,16 +25,24 @@ export default class extends Component{
         var categoryLength = this.state.data.length;
 
         return (
-        <Container>
+        <div class="container">
             <div class="row">
-                <MainCategory className="col-4">
+                <MainCategory className="col-2">
                     Main Category
+                    
                 </MainCategory>
-                <SubCategory class="col-8">
-                    Items...
+                <SubCategory className="col-10 row">
+            
+                        <div class="col-2">Item 1</div>
+                        <div class="col-2">Item 2</div>
+                        <div class="col-2">Item 3</div>
+                        <div class="col-2">Item 4</div>
+                        <div class="col-2">Item 5</div>
+                   
                 </SubCategory>
+                
             </div>
-        </Container>
+        </div>
         )
     }
 }
