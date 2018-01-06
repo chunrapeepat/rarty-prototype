@@ -83,22 +83,22 @@ const CatePage = () => (
 				<div class="col-md-9">
 					<div class="row">
 						<div class="col-md-4">
-							<ProductCard />
+							<ProductCard img="/static/product/w.jpg" />
 						</div>
 						<div class="col-md-4">
-							<ProductCard />
+							<ProductCard img="/static/product/ww.jpg" />
 						</div>
 						<div class="col-md-4">
-							<ProductCard />
+							<ProductCard img="/static/product/www.jpg"/>
 						</div>
 						<div class="col-md-4">
-							<ProductCard />
+							<ProductCard img="/static/product/wwww.jpg"/>
 						</div>
 						<div class="col-md-4">
-							<ProductCard />
+							<ProductCard img="/static/product/wwwww.jpg"/>
 						</div>
 						<div class="col-md-4">
-							<ProductCard />
+							<ProductCard img="/static/product/wwwwww.jpg"/>
 						</div>
 
 						<Page>

@@ -72,13 +72,13 @@ const ViewProductPage = () => (
         <div className="row">
             <div className="col-md-5">
                 <SlideImage imgs={[
-                    'https://glamorous.com/pub/media/catalog/product/cache/image/600x900/e9c3970ab036de70892d86c6d221abfe/m/y/mystery_bag_2_web_1_.png',
-                    'https://glamorous.com/pub/media/catalog/product/cache/image/600x900/e9c3970ab036de70892d86c6d221abfe/a/n/an1418a_redspotfloral_03.jpg',
-                    'https://glamorous.com/pub/media/catalog/product/cache/image/600x900/e9c3970ab036de70892d86c6d221abfe/a/n/an1418a_redspotfloral_01.jpg',
+                    '/static/product/w.jpg',
+                    '/static/product/ww.jpg',
+                    '/static/product/www.jpg',
                 ]}/><br/>
             </div>
             <div className="col-md-7">
-                <ProductTitle>MEN เสื้อฮู้ดพาร์กาพับเก็บได้</ProductTitle>
+                <ProductTitle>ชุดคอสเพลย์ Wonder Women</ProductTitle>
                 <PriceTag>THB 500.00 <span>ว่าง</span></PriceTag>
 
                 <div className="row">
@@ -99,6 +99,11 @@ const ViewProductPage = () => (
                             <span>Name: Yana B<br/>
 ความสูง: 172 ซม.<br/>
 นางแบบสวมใส่ไซส์ S</span><br/>
+<b>Start Date</b>
+<input class="form-control" type="date" name="bday"/>
+<b>End Date</b>
+<input class="form-control" type="date" name="bday"/>
+<br/>
                             <Button onClick={() => window.alert('Successifully add item to cart!!')}>เพิ่มลงตระกร้าสินค้า</Button>
                         </Sidebar>
                     </div>

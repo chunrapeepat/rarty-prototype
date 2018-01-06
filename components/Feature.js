@@ -21,6 +21,10 @@ const Item = styled.div`
         text-align: center;
         margin-top: -5px;
     }
+
+    @media (max-width: 700px) {
+        display: none;
+    }
 `
 
 const Head = styled.div`

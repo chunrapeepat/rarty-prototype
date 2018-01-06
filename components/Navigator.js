@@ -1,8 +1,9 @@
 import React from 'react'
+import Link from 'next/link'
 import styled from 'styled-components'
 
 const Container = styled.div`
-    width: 100%;
+    width: calc(100% - 30px);
     color: white;
     padding: 15px 0;
     background: #311B92;
@@ -10,6 +11,11 @@ const Container = styled.div`
 
     & > .container > div {
         display: inline-block;
+    }
+
+    & > .container > div:hover {
+        color: #ccc;
+        cursor: pointer;
     }
 
     & > .container > div:nth-child(n+2) {
@@ -29,9 +35,9 @@ const Navigator = () => (
                 <img onClick={() => window.location.href = '/'} width="70px"src="/static/logo-2.png" />
             </div>
             <div>
-                <i class="zmdi zmdi-search"></i>&nbsp;&nbsp;
-                <i class="zmdi zmdi-account-o"></i>&nbsp;&nbsp;
-                <i onClick={() => window.location.href = '/checkout'} class="zmdi zmdi-shopping-cart"></i>
+            <Link href="/tracking"><i class="zmdi zmdi-search"></i></Link>&nbsp;&nbsp;
+                <Link href="/orders"><i class="zmdi zmdi-account-o"></i></Link>&nbsp;&nbsp;
+                <Link href="/checkout"><i class="zmdi zmdi-shopping-cart"></i></Link>
             </div>
             <div>CONTACT</div>
             <div>HOW TO ORDER</div>            

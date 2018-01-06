@@ -1,4 +1,5 @@
 import React from 'react'
+import Link from 'next/link'
 
 import * as sharedStyle from '../shared/style'
 
@@ -17,20 +18,41 @@ const Index = () => (
       <div className="container">
         <Feature />
         <sharedStyle.Heading desc="you may wish to add some sort of pagination to each page.">
-          SHOP BY CATAGORIES
+          SHOP BY CATEGORIES
         </sharedStyle.Heading>
         <div className="row">
-          <div className="col-md-3">
-            <a href="/catagories"><img width="100%" src="/static/cat-anime.png" /></a>
+          <div className="col-md-3 col-6">
+            <Link href="/categories"><img width="100%" src="/static/movie.png" /></Link>
+            <br/><br/>
           </div>
-          <div className="col-md-3">
-            <img width="100%" src="/static/movie.png" />
-          </div>
-          <div className="col-md-3">
+          <div className="col-md-3 col-6">
             <img width="100%" src="/static/cat-anime.png" />
+            <br/><br/>
           </div>
-          <div className="col-md-3">
-            <img width="100%" src="/static/movie.png" />
+          <div className="col-md-3 col-6">
+            <img width="100%" src="/static/witch.png" />
+            <br/><br/>
+          </div>
+          <div className="col-md-3 col-6">
+            <img width="100%" src="/static/pirate.png" />
+            <br/><br/>
+          </div>
+        </div>
+        <div className="row">
+          <div className="col-md-3 col-6">
+            <img width="100%" src="/static/princess.png" />
+            <br/><br/>
+          </div>
+          <div className="col-md-3 col-6">
+            <img width="100%" src="/static/halloween.png" />
+            <br/><br/>
+          </div>
+          <div className="col-md-3 col-6">
+            <img width="100%" src="/static/dress.png" />
+            <br/><br/>
+          </div>
+          <div className="col-md-3 col-6">
+            <img width="100%" src="/static/career.png" />
           </div>
         </div>
         <sharedStyle.Heading desc="you may wish to add some sort of pagination to each page.">
@@ -40,20 +62,18 @@ const Index = () => (
 
           <div className="col-md-3">
             <div className="card">
-              <img className="card-img-top" src="..." alt="Card image cap"/>
+              <Link href="/article"><img className="card-img-top" src="/static/banner1.jpg"/></Link>
               <div className="card-body">
-                <h5 className="card-title">Card title</h5>
-                <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <h5 style={{'font-family': 'Kanit'}} className="card-title">วิธีการวัดขนาดตัวสำหรับลูกค้า</h5>
               </div>
             </div>
           </div>
 
           <div className="col-md-3">
             <div className="card">
-              <img className="card-img-top" src="..." alt="Card image cap"/>
+              <Link href="/how-to-make-dream-come-true"><img className="card-img-top" src="/static/banner2_2.jpg"/></Link>
               <div className="card-body">
-                <h5 className="card-title">Card title</h5>
-                <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <h5 className="card-title">How to make dream come true</h5>
               </div>
             </div>
           </div>
@@ -61,23 +81,23 @@ const Index = () => (
 
           <div className="col-md-3">
             <div className="card">
-              <img className="card-img-top" src="..." alt="Card image cap"/>
+              <Link href="/article"><img className="card-img-top" src="/static/bl.jpg"/></Link>
               <div className="card-body">
-                <h5 className="card-title">Card title</h5>
-                <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <h5 style={{'font-family': 'Kanit'}} className="card-title">16 ไอเดียสุดมันส์ทำให้วันคริสต์มาสไม่มีสีแดง</h5>
               </div>
             </div>
           </div>
 
+
           <div className="col-md-3">
             <div className="card">
-              <img className="card-img-top" src="..." alt="Card image cap"/>
+              <Link href="/article"><img className="card-img-top" src="/static/ww.jpg"/></Link>
               <div className="card-body">
-                <h5 className="card-title">Card title</h5>
-                <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <h5 style={{'font-family': 'Kanit'}} className="card-title">เผย 5 เหตุผลที่ใครๆก็อยากเป็น Wonder Woman</h5>
               </div>
             </div>
           </div>
+
         </div>
         <sharedStyle.Heading desc="you may wish to add some sort of pagination to each page.">
           NEW ARRIVAL
