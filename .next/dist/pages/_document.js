@@ -83,31 +83,43 @@ var MyDocument = function (_Document) {
           fileName: _jsxFileName,
           lineNumber: 15
         }
-      }), _react2.default.createElement('meta', { name: 'theme-color', content: '#000', __source: {
+      }), _react2.default.createElement('link', { href: 'https://fonts.googleapis.com/css?family=Kanit:300,400,500', rel: 'stylesheet', __source: {
           fileName: _jsxFileName,
           lineNumber: 16
         }
-      }), _react2.default.createElement('meta', { name: 'description', content: 'Change me', __source: {
+      }), _react2.default.createElement('link', { href: 'https://fonts.googleapis.com/css?family=Open+Sans:400,600', rel: 'stylesheet', __source: {
           fileName: _jsxFileName,
           lineNumber: 17
         }
-      }), _react2.default.createElement('meta', { name: 'keywords', content: 'Change me', __source: {
+      }), _react2.default.createElement('link', { href: 'https://fonts.googleapis.com/css?family=Montserrat:600', rel: 'stylesheet', __source: {
           fileName: _jsxFileName,
           lineNumber: 18
+        }
+      }), _react2.default.createElement('meta', { name: 'theme-color', content: '#000', __source: {
+          fileName: _jsxFileName,
+          lineNumber: 19
+        }
+      }), _react2.default.createElement('meta', { name: 'description', content: 'Change me', __source: {
+          fileName: _jsxFileName,
+          lineNumber: 20
+        }
+      }), _react2.default.createElement('meta', { name: 'keywords', content: 'Change me', __source: {
+          fileName: _jsxFileName,
+          lineNumber: 21
         }
       }), styleTags), _react2.default.createElement('body', {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 21
+          lineNumber: 24
         }
       }, _react2.default.createElement('div', { className: 'root', __source: {
           fileName: _jsxFileName,
-          lineNumber: 22
+          lineNumber: 25
         }
       }, main), _react2.default.createElement(_document.NextScript, {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 25
+          lineNumber: 28
         }
       })));
     }
@@ -117,4 +129,4 @@ var MyDocument = function (_Document) {
 }(_document2.default);
 
 exports.default = MyDocument;
-//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInBhZ2VzXFxfZG9jdW1lbnQuanMiXSwibmFtZXMiOlsiRG9jdW1lbnQiLCJIZWFkIiwiTWFpbiIsIk5leHRTY3JpcHQiLCJTZXJ2ZXJTdHlsZVNoZWV0IiwiTXlEb2N1bWVudCIsInNoZWV0IiwibWFpbiIsImNvbGxlY3RTdHlsZXMiLCJzdHlsZVRhZ3MiLCJnZXRTdHlsZUVsZW1lbnQiXSwibWFwcGluZ3MiOiI7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7OztBQUFBLEFBQU8sQUFBWSxBQUFNLEFBQU07Ozs7QUFDL0IsQUFBUzs7Ozs7OztJQUVZLEE7Ozs7Ozs7Ozs7OzZCQUNWLEFBQ1A7VUFBTSxRQUFOLEFBQWMsQUFBSSxBQUNsQjtVQUFNLGFBQU8sQUFBTSw4QkFBYyxBQUFDOztvQkFBRDtzQkFBakMsQUFBYSxBQUFvQixBQUNqQztBQURpQztBQUFBLE9BQUEsQ0FBcEI7VUFDUCxZQUFZLE1BQWxCLEFBQWtCLEFBQU0sQUFFeEI7OzZCQUNFLGNBQUE7O29CQUFBO3NCQUFBLEFBQ0U7QUFERjtBQUFBLE9BQUEsa0JBQ0UsQUFBQzs7b0JBQUQ7c0JBQUEsQUFDRTtBQURGO0FBQUEseUJBQ0UsY0FBQTs7b0JBQUE7c0JBQUE7QUFBQTtBQUFBLFNBREYsQUFDRSxBQUNBLDhEQUFNLEtBQU4sQUFBVSxjQUFhLE1BQXZCLEFBQTRCO29CQUE1QjtzQkFGRixBQUVFLEFBQ0E7QUFEQTtrREFDTSxLQUFOLEFBQVUsY0FBYSxNQUF2QixBQUE0QjtvQkFBNUI7c0JBSEYsQUFHRSxBQUNBO0FBREE7a0RBQ00sTUFBTixBQUFXLGVBQWMsU0FBekIsQUFBaUM7b0JBQWpDO3NCQUpGLEFBSUUsQUFDQTtBQURBO2tEQUNNLE1BQU4sQUFBVyxlQUFjLFNBQXpCLEFBQWlDO29CQUFqQztzQkFMRixBQUtFLEFBQ0E7QUFEQTtrREFDTSxNQUFOLEFBQVcsWUFBVyxTQUF0QixBQUE4QjtvQkFBOUI7c0JBTkYsQUFNRSxBQUNDO0FBREQ7VUFQSixBQUNFLEFBU0EsNEJBQUEsY0FBQTs7b0JBQUE7c0JBQUEsQUFDRTtBQURGO0FBQUEseUJBQ0UsY0FBQSxTQUFLLFdBQUwsQUFBZTtvQkFBZjtzQkFBQSxBQUNHO0FBREg7U0FERixBQUNFLEFBR0EsdUJBQUEsQUFBQzs7b0JBQUQ7c0JBZk4sQUFDRSxBQVVFLEFBSUUsQUFJUDtBQUpPO0FBQUE7Ozs7O0FBckI4QixBOztrQkFBbkIsQSIsImZpbGUiOiJfZG9jdW1lbnQuanM/ZW50cnkiLCJzb3VyY2VSb290IjoiRDovcmFydHktcHJvdG90eXBlIn0=
+//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInBhZ2VzXFxfZG9jdW1lbnQuanMiXSwibmFtZXMiOlsiRG9jdW1lbnQiLCJIZWFkIiwiTWFpbiIsIk5leHRTY3JpcHQiLCJTZXJ2ZXJTdHlsZVNoZWV0IiwiaW5qZWN0R2xvYmFsIiwiTXlEb2N1bWVudCIsInNoZWV0IiwibWFpbiIsImNvbGxlY3RTdHlsZXMiLCJzdHlsZVRhZ3MiLCJnZXRTdHlsZUVsZW1lbnQiXSwibWFwcGluZ3MiOiI7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7OztBQUFBLEFBQU8sQUFBWSxBQUFNLEFBQU07Ozs7QUFDL0IsQUFBUyxBQUFrQjs7Ozs7OztJLEFBRU47Ozs7Ozs7Ozs7OzZCQUNWLEFBQ1A7VUFBTSxRQUFOLEFBQWMsQUFBSSxBQUNsQjtVQUFNLGFBQU8sQUFBTSw4QkFBYyxBQUFDOztvQkFBRDtzQkFBakMsQUFBYSxBQUFvQixBQUNqQztBQURpQztBQUFBLE9BQUEsQ0FBcEI7VUFDUCxZQUFZLE1BQWxCLEFBQWtCLEFBQU0sQUFFeEI7OzZCQUNFLGNBQUE7O29CQUFBO3NCQUFBLEFBQ0U7QUFERjtBQUFBLE9BQUEsa0JBQ0UsQUFBQzs7b0JBQUQ7c0JBQUEsQUFDRTtBQURGO0FBQUEseUJBQ0UsY0FBQTs7b0JBQUE7c0JBQUE7QUFBQTtBQUFBLFNBREYsQUFDRSxBQUNBLDhEQUFNLEtBQU4sQUFBVSxjQUFhLE1BQXZCLEFBQTRCO29CQUE1QjtzQkFGRixBQUVFLEFBQ0E7QUFEQTtrREFDTSxLQUFOLEFBQVUsY0FBYSxNQUF2QixBQUE0QjtvQkFBNUI7c0JBSEYsQUFHRSxBQUNBO0FBREE7a0RBQ00sTUFBTixBQUFXLDZEQUE0RCxLQUF2RSxBQUEyRTtvQkFBM0U7c0JBSkYsQUFJRSxBQUNBO0FBREE7a0RBQ00sTUFBTixBQUFXLDZEQUE0RCxLQUF2RSxBQUEyRTtvQkFBM0U7c0JBTEYsQUFLRSxBQUNBO0FBREE7a0RBQ00sTUFBTixBQUFXLDBEQUF5RCxLQUFwRSxBQUF3RTtvQkFBeEU7c0JBTkYsQUFNRSxBQUNBO0FBREE7a0RBQ00sTUFBTixBQUFXLGVBQWMsU0FBekIsQUFBaUM7b0JBQWpDO3NCQVBGLEFBT0UsQUFDQTtBQURBO2tEQUNNLE1BQU4sQUFBVyxlQUFjLFNBQXpCLEFBQWlDO29CQUFqQztzQkFSRixBQVFFLEFBQ0E7QUFEQTtrREFDTSxNQUFOLEFBQVcsWUFBVyxTQUF0QixBQUE4QjtvQkFBOUI7c0JBVEYsQUFTRSxBQUNDO0FBREQ7VUFWSixBQUNFLEFBWUEsNEJBQUEsY0FBQTs7b0JBQUE7c0JBQUEsQUFDRTtBQURGO0FBQUEseUJBQ0UsY0FBQSxTQUFLLFdBQUwsQUFBZTtvQkFBZjtzQkFBQSxBQUNHO0FBREg7U0FERixBQUNFLEFBR0EsdUJBQUEsQUFBQzs7b0JBQUQ7c0JBbEJOLEFBQ0UsQUFhRSxBQUlFLEFBSVA7QUFKTztBQUFBOzs7OztBQXhCOEIsQTs7a0JBQW5CLEEiLCJmaWxlIjoiX2RvY3VtZW50LmpzP2VudHJ5Iiwic291cmNlUm9vdCI6IkQ6L3JhcnR5LXByb3RvdHlwZSJ9
