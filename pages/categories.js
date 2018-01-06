@@ -9,8 +9,6 @@ import Slide from '../components/Slide'
 
 const Content = styled.div`
 	width: 100%;
-	height: 300px;
-	background: #ccc;
 	margin: 20px 0;
 `
 
@@ -39,7 +37,9 @@ const CatePage = () => (
 	<div>
 		<HeaderContainer />
 		<div class="container">
-			<Content />
+			<Content>
+				<img width="100%" src="/static/wonder.jpg"/>
+			</Content>
 			<div class="row">
 				<div class="col-md-3">
 					<Slide show={true} heading="Male" content={[

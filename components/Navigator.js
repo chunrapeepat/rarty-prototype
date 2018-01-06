@@ -43,7 +43,7 @@ const Navigator = () => (
             <div>HOW TO ORDER</div>            
             <div>ARTICLE</div>            
             <div>ABOUT US</div>            
-            <div>CATEGORY</div>
+            <Link href="/categories"><div>CATEGORY</div></Link>
             
             
         </div>
