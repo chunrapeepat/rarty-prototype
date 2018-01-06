@@ -10,7 +10,7 @@ import ProductCard from '../components/ProductCard'
 
 const Index = () => (
   <div>
-      <HeaderContainer/>
+      <HeaderContainer withbanner/>
       <div className="container">
         <Feature />
         <sharedStyle.Heading>

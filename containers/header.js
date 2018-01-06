@@ -8,7 +8,7 @@ export default class extends Component {
         return (
             <div>
                 <Navigator />
-                <Banner />
+                {this.props.withbanner && <Banner />}
             </div>
         )
     }

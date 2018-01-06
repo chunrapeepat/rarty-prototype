@@ -1,5 +1,5 @@
 import Document, { Head, Main, NextScript } from 'next/document'
-import { ServerStyleSheet } from 'styled-components'
+import { ServerStyleSheet, injectGlobal } from 'styled-components'
 
 export default class MyDocument extends Document {
   render() {
@@ -13,6 +13,9 @@ export default class MyDocument extends Document {
           <title>Rarty - Something</title>
           <link rel="stylesheet" href="/static/css/bootstrap.min.css" />
           <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/material-design-iconic-font/2.2.0/css/material-design-iconic-font.min.css"/>
+          <link href="https://fonts.googleapis.com/css?family=Kanit:300,400,500" rel="stylesheet" />
+          <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600" rel="stylesheet" />
+          <link href="https://fonts.googleapis.com/css?family=Montserrat:600" rel="stylesheet" />
           <meta name="theme-color" content="#000" />
           <meta name="description" content="Change me"/>
           <meta name="keywords" content="Change me"/>
