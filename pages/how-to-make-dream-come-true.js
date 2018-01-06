@@ -23,7 +23,9 @@ export default class extends Component{
             <div>
             <Navigator/>
             <div class="container">
-                <img src="https://static.pexels.com/photos/17795/christmas-xmas-christmas-tree-decoration.jpg" class="img-fluid" alt="Responsive image" />
+                <br/><br/>
+                <img src="/static/banner2_2.jpg" class="img-fluid" alt="Responsive image" />
+                <br/>
                 <sharedStyle.Heading>
                     How to make the dream comes true
                 </sharedStyle.Heading> 
@@ -68,16 +70,16 @@ export default class extends Component{
                 </sharedStyle.Heading> 
                 <div className="row">
                   <div className="col-md-3">
-                    <ProductCard />
+                    <ProductCard img="/static/product/w.jpg"/>
                   </div>
                   <div className="col-md-3">
-                    <ProductCard />
+                    <ProductCard img="/static/product/ww.jpg"/>
                   </div>
                   <div className="col-md-3">
-                    <ProductCard />
+                    <ProductCard img="/static/product/www.jpg"/>
                   </div>
                   <div className="col-md-3">
-                    <ProductCard />
+                    <ProductCard img="/static/product/wwww.jpg"/>
                   </div>
                 </div>
             </div>

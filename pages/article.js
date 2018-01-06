@@ -40,7 +40,7 @@ export default class extends Component{
                 </P>
                 <P>
                 2.รู้เคล็ดลับในการเลือกชุด</P>
-    <P>นอกจากนี้มียังมีเคล็ดลับเล็ก ๆ น้อย ๆ มาฝากทุกคนกันด้วยนะจ๊ะ ถ้าพร้อมแล้ว เรามาเริ่มกันเลย
+    <P>นอกจากนี้ยังมีเคล็ดลับเล็ก ๆ น้อย ๆ มาฝากทุกคนกันด้วยนะจ๊ะ ถ้าพร้อมแล้ว เรามาเริ่มกันเลย
                 </P>
                 <P>
                 1. เพิ่มความเป๊ะของอกและสะโพกด้วยการวัดเฉพาะจุด
@@ -48,7 +48,7 @@ export default class extends Component{
                 </P>
                 <P>
                 2.รู้เคล็ดลับในการเลือกชุด
-    นอกจากนี้มียังมีเคล็ดลับเล็ก ๆ น้อย ๆ มาฝากทุกคนกันด้วยนะจ๊ะ ถ้าพร้อมแล้ว เรามาเริ่มกันเลย</P>
+    นอกจากนี้ยังมีเคล็ดลับเล็ก ๆ น้อย ๆ มาฝากทุกคนกันด้วยนะจ๊ะ ถ้าพร้อมแล้ว เรามาเริ่มกันเลย</P>
 <P>
 เพิ่มความเป๊ะของอกและสะโพกด้วยการวัดเฉพาะจุด
     สำหรับคนที่กังวลเรื่องขนาดของหน้าอกและสะโพก แม่จะบอกว่า การวัดเฉพาะจุดจะช่วยเพิ่มความกระชับและความพอดีของชุดได้มาก ๆ เลยนะจ๊ะ โดยแม่จะมาบอกสัดส่วนที่ทุกคนควรจะวัดเพิ่มเติม 
@@ -80,16 +80,16 @@ export default class extends Component{
                 </sharedStyle.Heading> 
                 <div className="row">
                   <div className="col-md-3">
-                    <ProductCard />
+                    <ProductCard img="/static/product/w.jpg"/>
                   </div>
                   <div className="col-md-3">
-                    <ProductCard />
+                    <ProductCard img="/static/product/ww.jpg"/>
                   </div>
                   <div className="col-md-3">
-                    <ProductCard />
+                    <ProductCard img="/static/product/www.jpg"/>
                   </div>
                   <div className="col-md-3">
-                    <ProductCard />
+                    <ProductCard img="/static/product/wwww.jpg"/>
                   </div>
                 </div>
             </div>

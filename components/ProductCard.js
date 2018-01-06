@@ -1,5 +1,6 @@
 import React from 'react'
 import styled from 'styled-components'
+import Link from 'next/link'
 
 const Container = styled.div`
     width: 100%;
@@ -44,11 +45,13 @@ const Padding = styled.div`
 	padding: 5px 10px;
 `
 
-const ProductCard = () => (
+const ProductCard = ({ img }) => (
     <Container>
-    	<img width="100%" src="https://images.looksi.com/acMPwbEsNNh9wr-yjvbD7CxAyaQ=/fit-in/236x345/filters:quality(90):fill(ffffff)/http://static-catalog.looksi.com/p/dapper-5076-873346-1.jpg"/>
+    	<Link href='/view-product'>
+    		<img width="100%" src={img}/>
+    	</Link>
     	<Padding>
-    		<Title>เสื้อเชิ้ตแขนยาว Smart Melancholy</Title>
+    		<Title>ชุดคอสเพลย์ Wonder Women</Title>
 	    	<Foot>
 	    		<Tag>Available</Tag>
 				<PriceTag>THB 5000</PriceTag>
