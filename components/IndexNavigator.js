@@ -25,6 +25,7 @@ const Container = styled.div`
         font-size:20px;
     }
 
+
 `
 
 const Navigator = () => (

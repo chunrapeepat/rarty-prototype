@@ -9,6 +9,7 @@ const Container = styled.div`
 
 const ProductCard = () => (
     <Container>
+        <img height="150px" width="100%" src="https://images.looksi.com/acMPwbEsNNh9wr-yjvbD7CxAyaQ=/fit-in/236x345/filters:quality(90):fill(ffffff)/http://static-catalog.looksi.com/p/dapper-5076-873346-1.jpg" />
     </Container>
 )
 

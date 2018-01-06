@@ -10,6 +10,8 @@ import Feature from '../components/Feature'
 const Item = styled.div`
     padding : 10px;
     border-bottom : 1px solid purple;
+    font-family: 'Kanit', sans-serif;
+
 `
 const Total = styled.div`
     font-size : 2em;
@@ -58,7 +60,7 @@ export default class extends Component {
             items: [
                 {
                     id: 1,
-                    name: "Bag",
+                    name: "เสื้อเชิ้ตแขนยาว Smart Melancholy",
                     price: 1000.0,
                     try: false
                 },
