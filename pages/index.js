@@ -36,6 +36,10 @@ const Index = () => (
       </div>
       <br />
       <FooterContainer/>
+<<<<<<< HEAD
+
+=======
+>>>>>>> Jade
   </div>
 )
 
