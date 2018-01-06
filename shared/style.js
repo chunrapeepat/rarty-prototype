@@ -1,8 +1,23 @@
 import styled from 'styled-components'
 
-export const Heading = styled.h1`
-    margin: 20px 0;
-    padding-left: 10px;
-    border-left: 5px solid #333;
+const Header = styled.h1`
+    margin: 30px 0;
+    text-align: center;
     font-size: 30px;
+    font-family: 'Montserrat', sans-serif;
+
+    & > div {
+    	background: black;
+    	width: 150px;
+    	height: 2px;
+    	margin: auto auto;
+    	margin-top: 7px;
+    }
 `
+
+export const Heading = ({ children, desc }) => (
+	<Header>
+		{children}
+		<div/>
+	</Header>
+)

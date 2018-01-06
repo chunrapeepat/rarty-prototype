@@ -13,11 +13,11 @@ const Index = () => (
       <HeaderContainer withbanner/>
       <div className="container">
         <Feature />
-        <sharedStyle.Heading>
-          Recommend
+        <sharedStyle.Heading desc="you may wish to add some sort of pagination to each page.">
+          SHOP BY CATAGORIES
         </sharedStyle.Heading>
-        <sharedStyle.Heading>
-          New Product Arrival
+        <sharedStyle.Heading desc="you may wish to add some sort of pagination to each page.">
+          NEW ARRIVAL
         </sharedStyle.Heading>
         <div className="row">
           <div className="col-md-3">
@@ -34,7 +34,6 @@ const Index = () => (
           </div>
         </div>
       </div>
-      <br />
       <FooterContainer/>
   </div>
 )
