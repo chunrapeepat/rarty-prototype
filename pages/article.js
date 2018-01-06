@@ -9,10 +9,12 @@ import Feature from '../components/Feature'
 
 const Content = styled.div`
     font-size : 20px;
-    padding : 0px 50px 0px 50px;
-    p{
-        text-indent: 70px;
-    }
+    padding : 5px 200px;
+`
+
+const P = styled.p`
+    font-size: 16px;
+    padding: 5px 0;
 `
 
 export default class extends Component{
@@ -23,39 +25,76 @@ export default class extends Component{
             <div class="container">
                 <img src="https://static.pexels.com/photos/17795/christmas-xmas-christmas-tree-decoration.jpg" class="img-fluid" alt="Responsive image" />
                 <sharedStyle.Heading>
-                    Let's celebrate Christmas!
+                    วิธีการวัดขนาดตัวสำหรับลูกค้า
                 </sharedStyle.Heading> 
                 <Content>
-                <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam risus ipsum, maximus sed mattis eget, cursus vel ligula. Vestibulum volutpat feugiat tellus, id pulvinar enim mollis sed. Donec magna mi, volutpat quis erat vel, auctor elementum metus. Suspendisse sodales velit eu arcu molestie sagittis ac et dui. Vivamus vehicula quis justo nec porttitor. Fusce feugiat id eros at mattis. Vivamus placerat, libero at finibus tempor, ante orci maximus neque, ut dictum felis massa ut lectus. Nam mollis ante eu tortor rhoncus, sit amet tincidunt urna consectetur. Integer porttitor viverra imperdiet. Etiam ornare sem eu dui lobortis condimentum. Sed finibus mauris eget metus rutrum, a congue ante commodo. Sed pulvinar nisl ut dapibus tincidunt.
-                </p>
-                <p>
-                Nunc mattis metus eu sem ornare, eget gravida dolor egestas. Nunc at massa eu neque tincidunt bibendum. Aliquam erat volutpat. Quisque dignissim non massa malesuada tempor. In euismod risus sapien, in sollicitudin mi luctus a. Aliquam erat volutpat. Etiam dictum urna eget ex elementum, eget commodo dolor feugiat. Curabitur porta iaculis nunc a volutpat. Phasellus neque massa, vehicula a volutpat sit amet, accumsan sollicitudin diam. Integer consectetur blandit neque. In hac habitasse platea dictumst. Vestibulum aliquam tortor ut suscipit commodo. Donec quis nisi libero.
-                </p>
-                <p>
-                Vivamus porta lorem eu sollicitudin semper. Sed vulputate neque in erat porttitor aliquet. Maecenas suscipit lectus nec aliquet euismod. Etiam vehicula, leo id porttitor posuere, ex velit dignissim purus, a vehicula sapien ex a odio. Morbi pellentesque, augue et dictum varius, lacus erat faucibus sem, ut efficitur ipsum libero eu felis. Morbi sed nisi mauris. Nulla in mi eros. Phasellus iaculis orci nec elit facilisis ullamcorper. Vestibulum bibendum posuere lacus eu euismod. Duis semper est diam, a accumsan ligula lobortis eget. Vestibulum facilisis mollis imperdiet. Quisque sed lorem mollis, congue nunc sit amet, hendrerit turpis. Integer eget rhoncus risus, at sodales velit. Nullam vitae leo augue. Vivamus vitae magna a velit pretium varius.
-                </p>
-                <p>
-                Ut dapibus congue rhoncus. Nam quis nunc varius, convallis est eu, dictum turpis. Cras fringilla neque sapien, sed consequat mi ultricies vel. Suspendisse potenti. Sed imperdiet, est at laoreet congue, ligula metus porta dui, ut accumsan metus nunc vel massa. Vivamus porttitor augue eu neque placerat, eget semper magna posuere. Nullam eget lorem accumsan, tempor nibh sit amet, convallis tortor. Curabitur id eleifend purus, non dictum arcu. Suspendisse sed enim quis lacus feugiat egestas. Phasellus molestie non nisl ut dignissim. Ut ornare justo a neque hendrerit, dapibus finibus urna egestas.
-                </p>
+                <P>เพราะความฝันของทุกคนเป็นสิ่งที่ล้ำค่าเสมอ และแม่อยากจะทำให้วันพิเศษของทุกคนกลายเป็นความทรงจำที่ล้ำค่ามากที่สุด วันนี้แม่จะมาบอกว่า นอกจากการออกแบบ สีและรูปทรงแล้ว การวัดขนาดของชุดก็สำคัญไม่แพ้กันนะจ๊ะ ดังนั้นแม่จึงจะมาบอกเคล็ดลับในการวัดขนาดตัว เพื่อเพิ่มความสะดวกในการค้นหาชุดที่จะเข้ามาเสริมความมั่นใจและเติมเต็มความฝันในทุก ๆ โอกาส ถ้าพร้อมแล้ว เรามาเริ่มกันที่ขั้นตอนแรกกันเลย</P>
+                <P>1.เข้าใจวิธีการวัดขนาดตัว
+    หลาย ๆ คนอาจจะคิดว่าการวัดขนาดตัวเป็นสิ่งที่ยุ่งยาก แต่เชื่อแม่เถอะ เพื่อความเป๊ะ! เราทนได้ โดยแม่จะมาบอกถึงสิ่งที่ทุกคนต้องรู้เวลาที่จะเลือกชุดที่เหมาะสมกับตัวเอง ได้แก่</P>
+                <P>
+                G : เอว - วัดเหนือสะดือประมาณ 1 นิ้ว<br/>
+                H : รอบอก - วัดรอบอกตรงส่วนที่กว้างที่สุดของอก<br/>
+                I : สะโพก - วัดรอบส่วนที่กว้างที่สุดของสะโพก<br/>
+                L-H : วัดรอบส่วนที่กว้างที่สุดของสะโพก<br/>
+                L-M : วัดความยาวจากหัวไหล่มายังข้อมือ<br/>
+                V-M : วัดความยาวรอบข้อมือ<br/>
+                L-K : ความกว้างของไหล่<br/>
+                R-S : ความยาวของกางเกง / กระโปรง
+                </P>
+                <P>
+                2.รู้เคล็ดลับในการเลือกชุด</P>
+    <P>นอกจากนี้มียังมีเคล็ดลับเล็ก ๆ น้อย ๆ มาฝากทุกคนกันด้วยนะจ๊ะ ถ้าพร้อมแล้ว เรามาเริ่มกันเลย
+                </P>
+                <P>
+                1. เพิ่มความเป๊ะของอกและสะโพกด้วยการวัดเฉพาะจุด
+    สำหรับคนที่กังวลเรื่องขนาดของหน้าอกและสะโพก แม่จะบอกว่า การวัดเฉพาะจุดจะช่วยเพิ่มความกระชับและความพอดีของชุดได้มาก ๆ เลยนะจ๊ะ โดยแม่จะมาบอกสัดส่วนที่ทุกคนควรจะวัดเพิ่มเติม 
+                </P>
+                <P>
+                2.รู้เคล็ดลับในการเลือกชุด
+    นอกจากนี้มียังมีเคล็ดลับเล็ก ๆ น้อย ๆ มาฝากทุกคนกันด้วยนะจ๊ะ ถ้าพร้อมแล้ว เรามาเริ่มกันเลย</P>
+<P>
+เพิ่มความเป๊ะของอกและสะโพกด้วยการวัดเฉพาะจุด
+    สำหรับคนที่กังวลเรื่องขนาดของหน้าอกและสะโพก แม่จะบอกว่า การวัดเฉพาะจุดจะช่วยเพิ่มความกระชับและความพอดีของชุดได้มาก ๆ เลยนะจ๊ะ โดยแม่จะมาบอกสัดส่วนที่ทุกคนควรจะวัดเพิ่มเติม 
+</P>
+
+<P>การวัดรอบอกบน (วัดจากเนินอกใต้รักแร้ทั้งสองข้าง)</P>
+<P>
+เพื่อความกระชับของชุด โดยเฉพาะชุดเกาะอก ไม่อย่างนั้นเดี๋ยวจะอึดอัดจนเกินไปนะ
+การวัดรอบอกล่าง (วัดจากฐานอกหรือขอบล่างของเสื้อยกทรง)
+เพื่อความกระชับของชุดที่มีขนาดพอดีตัวนะจ๊ะ
+การวัดสะโพกบน (วัดรอบลำตัวในจุดที่ต่ำกว่าเอวประมาณ 15 ซม.)
+ข้อนี้จำเป็นมาก (ก.ไก่ล้านตัว) แม่รู้นะว่าทุกคนมีน้องไขและน้องมันอยู่ที่หน้าท้อง แต่เวลานี้เราต้องเก็บน้อง ๆ เข้าไปก่อน เพราะเวลาที่เราสวมใส่เสื้อผ้าที่มีขนาดพอดี หน้าท้องเราจะได้เรียบเนียน ไม่มีเหล่าน้อง ๆ ไขและมันออกมาวิ่งเล่นกันนะจ๊ะ
+การวัดสะโพกล่าง 
+เราจะวัดส่วนนี้สำหรับชุดที่มีความกระชับเข้ารูปโดยเฉพาะส่วนสะโพก ชุดของใครที่เป็นกระโปรงยาวหรือกระโปรงบานก็ไม่ต้องนะจ๊ะ </P>
+<P>
+    2) ควรวัดขนาดรูปร่างของตัวเอง ทุก ๆ 1 - 3 เดือนนะจ๊ะ เผื่อเอาไว้ว่า ช่วงนั้นเรามีรูปร่างที่เปลี่ยนไปเนาะ<br/>
+
+    3) การวัดชุดแฟนซี ควรจะวัดให้พอดีไปเลยนะ เพื่อความสวยงาม อุตส่าห์เป็นวันพิเศษทั้งที<br/>
+
+    4) หากว่าผู้หญิงคนใด กังวลเรื่องการเปลี่ยนแปลงของรูปร่างจริง ๆ แม่ขอแนะนำชุดที่มีการเปิดหลัง หรือชุดรูปทรงสม็อคหลัง<br/>
+</P><P>
+เพียงแค่นี้เอง แม่บอกแล้วว่ามันง่ายจริง ๆ นะ แม่เชื่อว่า ตอนนี้เราก็น่าจะเตรียมตัวพร้อมแล้ว นึกถึงคำขอที่อยากจะได้ แล้วแม่จะทำฝันนั้นให้เป็นจริงเอง<br/>
+</P>
+<P>ด้วยรักจากแม่ทูนหัว
+                </P>
                 </Content>
                 <sharedStyle.Heading>
                     Related Rentable
                 </sharedStyle.Heading> 
                 <div className="row">
-          <div className="col-md-3">
-            <ProductCard />
-          </div>
-          <div className="col-md-3">
-            <ProductCard />
-          </div>
-          <div className="col-md-3">
-            <ProductCard />
-          </div>
-          <div className="col-md-3">
-            <ProductCard />
-          </div>
-        </div>
+                  <div className="col-md-3">
+                    <ProductCard />
+                  </div>
+                  <div className="col-md-3">
+                    <ProductCard />
+                  </div>
+                  <div className="col-md-3">
+                    <ProductCard />
+                  </div>
+                  <div className="col-md-3">
+                    <ProductCard />
+                  </div>
+                </div>
             </div>
             <br /><br />
             <FooterContainer/>
