@@ -40,6 +40,30 @@ const DescContainer = styled.div`
     margin: 30px 0;
 `
 
+const Sidebar = styled.div`
+    width: 100%;
+    background: #ccc;
+    padding: 15px;
+
+    & > span {
+        font-family: 'Kanit';
+        display: block;
+    } 
+` 
+
+const Button = styled.button`
+    width: 100%;
+    text-align: center;
+    color: white;
+    padding: 10px;
+    border: 0;
+    background: #311B92;
+    font-size: 16px;
+    cursor: pointer;
+    outline: none;
+    font-family: 'Kanit', sans-serif;
+`
+
 const ViewProductPage = () => (
   <div>
       <HeaderContainer/>
@@ -51,22 +75,34 @@ const ViewProductPage = () => (
                     'https://glamorous.com/pub/media/catalog/product/cache/image/600x900/e9c3970ab036de70892d86c6d221abfe/m/y/mystery_bag_2_web_1_.png',
                     'https://glamorous.com/pub/media/catalog/product/cache/image/600x900/e9c3970ab036de70892d86c6d221abfe/a/n/an1418a_redspotfloral_03.jpg',
                     'https://glamorous.com/pub/media/catalog/product/cache/image/600x900/e9c3970ab036de70892d86c6d221abfe/a/n/an1418a_redspotfloral_01.jpg',
-                ]}/>
+                ]}/><br/>
             </div>
             <div className="col-md-7">
                 <ProductTitle>MEN เสื้อฮู้ดพาร์กาพับเก็บได้</ProductTitle>
                 <PriceTag>THB 500.00 <span>ว่าง</span></PriceTag>
 
-                <DescContainer>
-                <p>เสื้อฮู้ดพาร์กาน้ำหนักเบาแบบพับเก็บได้ที่สามารถหยิบใช้ได้สะดวกเมื่อคุณต้องการเพื่อการท่องเที่ยว หรือเพื่อสวมใส่ในลุคลำลองโดยเฉพาะ</p>
-                <p>
--เส้นใยที่มีขนาด 30 ดีเนียร์จึงมีน้ำหนักเบาและพกพาได้สะดวก<br />
--การตัดเย็บและออกแบบที่สวยงามทั้งช่วงบ่าและแขนทำให้เหมาะกับการใส่เล่นกีฬาหรือลุคลำลอง<br />
--ดีไซน์แบบพับเก็บได้ให้คุณสามารถพกติดตัวไปได้ทุกที่และหยิบใช้ได้ทุกเมื่อที่ต้องการ<br />
--มีความคงทนสามารถกันละอองฝนและน้ำได้ เหมาะกับกิจกรรมกลางแจ้ง<br />
--มาในโทนสีอันทันสมัยให้คุณได้เลือกสรร
-                </p>
-                </DescContainer>
+                <div className="row">
+                    <div className="col-md-7">
+                        <DescContainer>
+                        <p>เสื้อฮู้ดพาร์กาน้ำหนักเบาแบบพับเก็บได้ที่สามารถหยิบใช้ได้สะดวกเมื่อคุณต้องการเพื่อการท่องเที่ยว หรือเพื่อสวมใส่ในลุคลำลองโดยเฉพาะ</p>
+                        <p>
+        -เส้นใยที่มีขนาด 30 ดีเนียร์จึงมีน้ำหนักเบาและพกพาได้สะดวก<br />
+        -การตัดเย็บและออกแบบที่สวยงามทั้งช่วงบ่าและแขนทำให้เหมาะกับการใส่เล่นกีฬาหรือลุคลำลอง<br />
+        -ดีไซน์แบบพับเก็บได้ให้คุณสามารถพกติดตัวไปได้ทุกที่และหยิบใช้ได้ทุกเมื่อที่ต้องการ<br />
+        -มีความคงทนสามารถกันละอองฝนและน้ำได้ เหมาะกับกิจกรรมกลางแจ้ง<br />
+        -มาในโทนสีอันทันสมัยให้คุณได้เลือกสรร
+                        </p>
+                        </DescContainer>
+                    </div>
+                    <div className="col-md-5">
+                        <Sidebar>
+                            <span>Name: Yana B<br/>
+ความสูง: 172 ซม.<br/>
+นางแบบสวมใส่ไซส์ S</span><br/>
+                            <Button>เพิ่มลงตระกร้าสินค้า</Button>
+                        </Sidebar>
+                    </div>
+                </div>
             </div>
         </div>
       </div>

@@ -4,7 +4,7 @@ const Header = styled.h1`
     margin: 30px 0;
     text-align: center;
     font-size: 30px;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Montserrat', 'Kanit', sans-serif;
 
     & > div {
     	background: black;
