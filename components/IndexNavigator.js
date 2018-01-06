@@ -36,7 +36,7 @@ const Navigator = () => (
             <div>
                 <i class="zmdi zmdi-search"></i>&nbsp;&nbsp;
                 <i class="zmdi zmdi-account-o"></i>&nbsp;&nbsp;
-                <i class="zmdi zmdi-shopping-cart"></i>
+                <i onClick={() => window.location.href = '/checkout'} class="zmdi zmdi-shopping-cart"></i>
             </div>
             <div>CONTACT</div>
             <div>HOW TO ORDER</div>            

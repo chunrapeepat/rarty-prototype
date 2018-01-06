@@ -99,7 +99,7 @@ const ViewProductPage = () => (
                             <span>Name: Yana B<br/>
 ความสูง: 172 ซม.<br/>
 นางแบบสวมใส่ไซส์ S</span><br/>
-                            <Button>เพิ่มลงตระกร้าสินค้า</Button>
+                            <Button onClick={() => window.alert('Successifully add item to cart!!')}>เพิ่มลงตระกร้าสินค้า</Button>
                         </Sidebar>
                     </div>
                 </div>
