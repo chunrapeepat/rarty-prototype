@@ -12,9 +12,11 @@ export default class MyDocument extends Document {
         <Head>
           <title>Rarty - Something</title>
           <link rel="stylesheet" href="/static/css/bootstrap.min.css" />
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/material-design-iconic-font/2.2.0/css/material-design-iconic-font.min.css"/>
           <meta name="theme-color" content="#000" />
           <meta name="description" content="Change me"/>
           <meta name="keywords" content="Change me"/>
+          {styleTags}
         </Head>
         <body>
           <div className="root">
