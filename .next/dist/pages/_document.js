@@ -75,7 +75,7 @@ var MyDocument = function (_Document) {
           fileName: _jsxFileName,
           lineNumber: 13
         }
-      }, 'Rarty - Something'), _react2.default.createElement('link', { rel: 'stylesheet', href: '/static/css/bootstrap.min.css', __source: {
+      }, 'Rarty - Something'), _react2.default.createElement('link', { rel: 'stylesheet', href: '/static/css/bootstrap.css', __source: {
           fileName: _jsxFileName,
           lineNumber: 14
         }

@@ -15,7 +15,7 @@ const Container = styled.div`
 
     & > .container > div:nth-child(n+2) {
         float: right;
-        margin-right : 50px; 
+        margin-right : 30px; 
         margin-top : 15px;
         pointer : cursor;
     }

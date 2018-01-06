@@ -11,7 +11,7 @@ export default class MyDocument extends Document {
       <html>
         <Head>
           <title>Rarty - Something</title>
-          <link rel="stylesheet" href="/static/css/bootstrap.min.css" />
+          <link rel="stylesheet" href="/static/css/bootstrap.css" />
           <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
           <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/material-design-iconic-font/2.2.0/css/material-design-iconic-font.min.css"/>
           <link href="https://fonts.googleapis.com/css?family=Kanit:300,400,500" rel="stylesheet" />

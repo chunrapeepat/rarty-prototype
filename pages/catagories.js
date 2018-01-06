@@ -42,15 +42,33 @@ const CatePage = () => (
 			<Content />
 			<div class="row">
 				<div class="col-md-3">
-					<Slide show={true} heading="male" content={[
-						'Hellooo',
-						'What the assdasd',
-						'GG Awesome'
+					<Slide show={true} heading="Male" content={[
+						'Super Hero',
+						'Princess',
+						'Dress',
+						'Occupation',
+						'Movie',
+						'Anime',
+						'Witch',
+						'Pirate',
+						'Halloween',
+						'Christmas',
+						'Nationality',
+						'Others',
 					]}/>
-					<Slide heading="female" content={[
-						'Hellooo',
-						'What the assdasd',
-						'GG Awesome'
+					<Slide heading="Female" content={[
+						'Super Hero',
+						'Princess',
+						'Dress',
+						'Occupation',
+						'Movie',
+						'Anime',
+						'Witch',
+						'Pirate',
+						'Halloween',
+						'Christmas',
+						'Nationality',
+						'Others',
 					]}/>
 					<hr />
 					<b>Search Title</b>

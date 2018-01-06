@@ -3,7 +3,7 @@ import styled from 'styled-components'
 const Header = styled.h1`
     margin: 30px 0;
     text-align: center;
-    font-size: 30px;
+    font-size: 25px;
     font-family: 'Montserrat', 'Kanit', sans-serif;
 
     & > div {

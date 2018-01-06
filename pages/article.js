@@ -22,8 +22,12 @@ export default class extends Component{
         return(
             <div>
             <Navigator/>
+            <br/>
+            <br/>
             <div class="container">
-                <img src="https://static.pexels.com/photos/17795/christmas-xmas-christmas-tree-decoration.jpg" class="img-fluid" alt="Responsive image" />
+                <center>
+                    <img width="80%" src="/static/banner1.jpg"/>
+                </center>
                 <sharedStyle.Heading>
                     วิธีการวัดขนาดตัวสำหรับลูกค้า
                 </sharedStyle.Heading> 
