@@ -7,10 +7,13 @@ import FooterContainer from '../containers/footer'
 
 import Feature from '../components/Feature'
 import ProductCard from '../components/ProductCard'
+import IndexNavigator from '../components/IndexNavigator';
+import Banner from '../components/Banner';
 
 const Index = () => (
   <div>
-      <HeaderContainer withbanner/>
+      <IndexNavigator />
+      <Banner/>
       <div className="container">
         <Feature />
         <sharedStyle.Heading desc="you may wish to add some sort of pagination to each page.">

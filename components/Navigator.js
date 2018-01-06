@@ -6,7 +6,7 @@ const Container = styled.div`
     color: white;
     padding: 15px 0;
     background: #311B92;
-
+    
     & > .container > div {
         display: inline-block;
     }
