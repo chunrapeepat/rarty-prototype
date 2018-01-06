@@ -12,23 +12,15 @@ const Container = styled.div`
         display: inline-block;
         
     }
-    & > .container > div:hover {
-        display: inline-block;
-        pointer:cursor;
-        
-    }
-
 
     & > .container > div:nth-child(n+2) {
         float: right;
         margin-right : 50px; 
         margin-top : 15px;
-        
-        
+        pointer : cursor;
     }
-    & > .container > div:nth-child(n+2){
-        pointer: cursor;
-    }
+
+
     & > .container > div:nth-child(2){
         font-size:20px;
     }
