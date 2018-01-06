@@ -5,7 +5,7 @@ const Container = styled.div`
     width: 100%;
     color: white;
     padding: 15px 0;
-    background: purple;
+    background: #311B92;
 
     & > .container > div {
         display: inline-block;

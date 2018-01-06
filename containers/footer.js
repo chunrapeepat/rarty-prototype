@@ -6,6 +6,7 @@ const Container = styled.div`
     color: white;
     text-align: center;
     padding: 100px 0;
+    margin-top: 30px;
 `
 
 const FooterContainer = () => (
