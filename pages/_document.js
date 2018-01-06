@@ -15,6 +15,7 @@ export default class MyDocument extends Document {
           <meta name="theme-color" content="#000" />
           <meta name="description" content="Change me"/>
           <meta name="keywords" content="Change me"/>
+          {styleTags}
         </Head>
         <body>
           <div className="root">
