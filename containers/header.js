@@ -9,13 +9,7 @@ export default class extends Component {
         return (
             <div>
                 <Navigator />
-<<<<<<< HEAD
                 {this.props.withbanner && <Banner />}
-=======
-                <CategoryContainer/>
-
-                <Banner />
->>>>>>> Jade
             </div>
         )
     }
