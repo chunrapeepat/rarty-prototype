@@ -16,23 +16,41 @@ const Total = styled.div`
     text-align: right;
 `
 const ItemContainer = styled.div`
-    border-color : purple;
-    border-size : 1px;
+    font-family: 'Open Sans', sans-serif;
+
 `
 const TableHeader = styled.div`
-    border-bottom : 1px solid purple;
-    padding : 10px;
+    padding : 15px 0;
+    font-family: 'Montserrat', sans-serif;
+
 `
 const TotalButtonContainer = styled.div`
     text-align : right;
+    font-family: 'Montserrat', sans-serif;
+
 `
 const RemoveItem = styled.div`
     font-size : 24px;
 `
 const TryItem = styled.div`
-font-size : 24px;
+    font-size : 24px;
 `
-
+const ProceedButton = styled.div`
+    background-color : #34254e; 
+    font-size : 16px;
+    color : white;
+    text-align : center;
+    padding : 10px 0px 10px 0px;
+    margin : 5px;
+`
+const GobackButton = styled.div`
+    background-color : #3e3e3e; 
+    font-size : 16px;
+    color : white;
+    text-align : center;
+    padding : 10px 0px 10px 0px;
+    margin : 5px;
+`
 export default class extends Component {
     constructor() {
         super()
@@ -121,7 +139,8 @@ export default class extends Component {
                     {trystate}
                     <RemoveItem className="col-1">
                         <center><i class="zmdi zmdi-delete" onClick={() => this.getCurrentItems(id)}></i></center>
-                    </RemoveItem></Item>)  
+                    </RemoveItem></Item>) 
+             
         }
 
         return (
@@ -129,7 +148,7 @@ export default class extends Component {
                 <Navigator />
                 <div class="container">
                     <sharedStyle.Heading>
-                        Cart
+                        Checkout
                 </sharedStyle.Heading>
                     <div class="row">
                         <div class="col-8">
@@ -142,6 +161,7 @@ export default class extends Component {
                                 </TableHeader>
                                 {items}
                             </ItemContainer>
+                            <a onClick={()=>this.setState({items:[],total:0})}>Clear</a>
                         </div>
                         <div class="col-4">
                             <hr />
@@ -150,9 +170,12 @@ export default class extends Component {
                             </Total>
                             <hr />
                             <TotalButtonContainer class="row">
-
-                                <button type="button" class="btn btn-danger" onClick={()=>this.setState({items:[],total:0})}>Clear</button>
-                                &nbsp;<button type="button" class="btn btn-success">Next</button>
+                                <ProceedButton>
+                                    Proceed
+                                </ProceedButton>
+                                <GobackButton>
+                                    Go Back
+                                </GobackButton>
                             </TotalButtonContainer>
                         </div>
                     </div>

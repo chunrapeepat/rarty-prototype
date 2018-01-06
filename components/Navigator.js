@@ -26,14 +26,13 @@ const Navigator = () => (
     <Container>
         <div className="container">
             <div >
-                <img width="70px"src="/static/logo-2.png" />
+                <img onClick={() => window.location.href = '/'} width="70px"src="/static/logo-2.png" />
             </div>
             <div>
                 <i class="zmdi zmdi-search"></i>&nbsp;&nbsp;
                 <i class="zmdi zmdi-account-o"></i>&nbsp;&nbsp;
-                <i class="zmdi zmdi-shopping-cart"></i>
+                <i onClick={() => window.location.href = '/checkout'} class="zmdi zmdi-shopping-cart"></i>
             </div>
-            
             <div>CONTACT</div>
             <div>HOW TO ORDER</div>            
             <div>ARTICLE</div>            
